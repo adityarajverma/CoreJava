@@ -33,7 +33,7 @@ public class MapExample {
 
 class User {
 	private String name;
-	private String age = "30";
+	private Integer age = 30;
 
 	public User(String name) {
 		super();
@@ -48,11 +48,11 @@ class User {
 		this.name = name;
 	}
 
-	public String getAge() {
+	public Integer getAge() {
 		return age;
 	}
 
-	public void setAge(String age) {
+	public void setAge(Integer age) {
 		this.age = age;
 	}
 
